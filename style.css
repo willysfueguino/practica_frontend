@@ -17,7 +17,7 @@ a
 }
 
 p{      /*Selector por tipo */
-    color:black
+    color:black;
 }
 
 header
@@ -53,7 +53,7 @@ header .container nav a
 header .container .hamb
 {
     display:none;
-    position: relative
+    position: relative;
 }
 
 footer.seccion 
@@ -242,19 +242,19 @@ footer .redes .a
     margin-left: 66.66%;
 }
 
-#Inicio              /*Selector por ID */
+#inicio              /*Selector por ID */
 {
     position: relative;
 }
 
-#Inicio img
+#inicio img
 {
     width:100%;
     display:block;
     padding-bottom: 0;
 }
 
-#Inicio .bloque-inicio              /*Selector por ID */
+#inicio .bloque-inicio              /*Selector por ID */
 {
     position: absolute;
     top: 20%;
@@ -264,56 +264,56 @@ footer .redes .a
     margin-left: -200px;
 }
 
-#Inicio .bloque-inicio h1{
+#inicio .bloque-inicio h1{
     color: black;
     font-size: 32px;
 }
 
-#Inicio .bloque-inicio p
+#inicio .bloque-inicio p
 {
     font-size: 32px;
 }
 
-#Nosotros
+#nosotros
 {
     background-image: url(img/latas.jpg);
     background-size: cover;   
 }
 
-#Nosotros p
+#nosotros p
 {
     color: white;
     text-align: center;
     font-size: 20px;
 }
 
-#Servicios .bloque-servicio
+#servicios .bloque-servicio
 {
     border: 1px solid grey;;
 }
 
-#Servicios .bloque-servicio .bloque-img-servicio img
+#servicios .bloque-servicio .bloque-img-servicio img
  {
      width: 100%;
  }
 
- #Servicios .bloque-servicio .bloque-img-servicio.cuadrado-perfecto
+ #servicios .bloque-servicio .bloque-img-servicio.cuadrado-perfecto
  {
      padding-bottom: 56.25%;
  }
 
- #Servicios .bloque-servicio .bloque-contenido-servicio
+ #servicios .bloque-servicio .bloque-contenido-servicio
  {
-    padding: 15px
+    padding: 15px 15px;
  }
 
- #Servicios .bloque-servicio .bloque-contenido-servicio h3
+ #servicios .bloque-servicio .bloque-contenido-servicio h3
  {
     margin-top: 0;
-    font-size: 16px;
+    font-size: 32px;
  }
  
- #Galeria h4
+ #galeria h4
  {
      padding: 0 15px;  
      text-align: center;
@@ -324,27 +324,27 @@ footer .redes .a
      width: 100%;
  }
 
- #Galeria img
+ #galeria img
   {
       filter: grayscale(1)
   }
 
-  #Galeria .cuadrado-perfecto:hover img
+  #galeria .cuadrado-perfecto:hover img
   {
       filter: grayscale(0)
   }
 
-  #Galeria .cuadrado-perfecto:hover h4
+  #galeria .cuadrado-perfecto:hover h4
   {
       display: none;
   }
   
-  #Contactenos
+  #contactenos
   {
       position:relative;
   }
 
-  #Contactenos iframe
+  #contactenos iframe
   {
       position: absolute;
       top: 0;
@@ -354,19 +354,19 @@ footer .redes .a
       filter: grayscale(1);
   }
 
-  #Contactenos form
+  #contactenos form
   {
       padding: 60px;
       background-color: red;
   }
 
-  #Contactenos form .form-block
+  #contactenos form .form-block
   {
     width: 100%;
     margin-bottom: 15px;
   }
 
-  #Contactenos form .form-block .form-control
+  #contactenos form .form-block .form-control
   {
     display: block;
     height: 40px;
@@ -376,7 +376,7 @@ footer .redes .a
     padding: 5px 10px;
   }
 
-  #Contactenos form .form-block textarea
+  #contactenos form .form-block textarea
   {
     display: block;
     height: 100px;
@@ -386,7 +386,7 @@ footer .redes .a
     padding: 5px 10px;
   }
 
-  #Contactenos form .form-block.bloque-ultimo
+  #contactenos form .form-block.bloque-ultimo
   {
     margin-bottom: 0;
   }
@@ -488,19 +488,19 @@ footer .redes .a
           padding-bottom: 15px;
       }
 
-      #Inicio
+      #inicio
       {
           height: 100vh;
       }
 
-      #Inicio img
+      #inicio img
       {
         height: 100%;
         object-fit: cover;
         object-position: center;
       }
 
-      #Inicio .bloque-inicio              /*Selector por ID */
+      #inicio .bloque-inicio              /*Selector por ID */
       {
           position: absolute;
           top: 20%;
@@ -510,23 +510,23 @@ footer .redes .a
           margin-left: -150px;
       }
 
-      #Inicio .bloque-inicio p
+      #inicio .bloque-inicio p
       {
           font-size: 20px;
       }
 
 
-      #Servicios .bloque-servicio
+      #servicios .bloque-servicio
       {
           margin-bottom: 15px;
       }
 
-      #Contactenos
+      #contactenos
       {
           padding: 0;
       }
 
-      #Contactenos iframe
+      #contactenos iframe
       {
           position:relative;
           height: 50vh;
