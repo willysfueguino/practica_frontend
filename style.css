@@ -52,7 +52,8 @@ header .container nav a
 
 header .container .hamb
 {
-    display:none
+    display:none;
+    position: relative
 }
 
 footer.seccion 
@@ -193,27 +194,27 @@ footer .redes .a
 {
     display:flex;
     flex-wrap: wrap;
-    margin: 0 -15px
+    margin: 0 -15px;
 }
 
 .columna 
 {
-    padding: 0 15px
+    padding: 0 15px;
 }
 
 .columna-25
 {
-    width: 25%
+    width: 25%;
 }
 
 .columna-33
 {
-    width: 33.33%
+    width: 33.33%;
 }
 
 .columna-41
 {
-    width: 41.66%
+    width: 41.66%;
 }
 
 .columna-50
@@ -411,6 +412,12 @@ footer .redes .a
           transform: translateX(100%);
       }
 
+      header .container nav.open
+      {
+        transition: all 0.4s ease;
+        transform: translateX(0);
+      }
+
       header .container nav a
       {
           font-size: 30px;
@@ -423,6 +430,7 @@ footer .redes .a
         font-size: 40px;
         color: red;
         margin-right: 10px;
+        position: relative;
       }
 
       form .boton.boton-negro
