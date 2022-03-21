@@ -7,7 +7,7 @@ font-family: 'Inspiration', cursive; */
 
  body
 {
-    font-size: 32px;
+    font-size: 24px;
 } */
 
 a
@@ -131,6 +131,9 @@ footer .redes .a
     font-size: 16px;
     font-weight: bold;
     border:groove red;
+    position: relative;
+    left: 75%;
+    padding: 5px 5px; 
 }
 
 .boton.boton-negro
@@ -139,7 +142,7 @@ footer .redes .a
     background-color: black;  
     font-size: 16px;
     font-weight: bold;
-    border:groove white
+    border:groove white;
 }
 
 .boton.boton-negro:hover
@@ -448,8 +451,11 @@ footer .redes .a
           width:50%;
       }
 
-      .boton.boton-blanco
+      .boton.boton-blanco-mobile
       {
+          padding: 10px 15px;
+          position: relative;
+          left: 70%;
           color: red;
           background-color: white;  
           font-size: 10px;
@@ -519,6 +525,7 @@ footer .redes .a
       #servicios .bloque-servicio
       {
           margin-bottom: 15px;
+          padding: 10px 10px;
       }
 
       #contactenos
