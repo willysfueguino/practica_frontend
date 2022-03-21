@@ -50,13 +50,8 @@ data.addEventListener('click', async (evento) => {
 
     
     const body = JSON.stringify(data)
-    const response = await fetch(`https://wa.me/+5492964482048/text=Nombre${nombre}Email${email}"Mensaje${msg}`, {  //=====>> Crear backend
-        method: 'GET',
-        headers: {
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Headers":"content-type"
-        },
-    })
+    const response = await fetch(`https://wa.me/+5492964482048/text=Nombre${nombre}Email${email}"Mensaje${msg}`)  //=====>> Crear backend
+   
     const realResponse = await response.json()
     console.log(realResponse)
 
