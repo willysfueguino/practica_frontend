@@ -35,5 +35,29 @@ const data = document.getElementById('boton-form')
 
 data.addEventListener('click', async (evento) => {
     evento.preventDefault()
-    alert("El formulario es sólo de demostración.")
+    let nombreInput = document.getElementById('nombre')
+    let nombre = nombreInput.value
+    let emailInput = document.getElementById('email')
+    let email = emailInput.value
+    let msgInput = document.getElementById('mensaje')
+    let msg = msgInput.value
+    const data = {Nombre: nombre, Email: email, Mensaje: msg}
+
+    if(nombre === "null" || email === "" || msg === ""){
+        alert("Todos los datos del formulario de contacto deben ser completados")
+        return
+    }
+
+    
+    const body = JSON.stringify(data)
+    const response = await fetch(`https://wa.me/+5492964482048/text=Nombre${nombre}Email${email}"Mensaje${msg}`, {  //=====>> Crear backend
+        method: 'GET',
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Headers":"content-type"
+        },
+    })
+    const realResponse = await response.json()
+    console.log(realResponse)
+
 })
