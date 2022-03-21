@@ -31,16 +31,9 @@ function listo(){
         })  
     })
 } 
-
-const data = document.getElementById('form')
-
+const data = document.getElementById('boton-form')
 
 data.addEventListener('click', async (evento) => {
     evento.preventDefault()
-    console.log(data)
-    // const response = await fetch( 'https://8588-181-191-143-252.ngrok.io/auth/facebook', 
-    // )
-
-    // const realResponse = await response.json()
-    // console.log(realResponse)
+    alert("El formulario es sólo de demostración.")
 })
